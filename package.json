@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "test": "node test.js",
-  "start": "node app.js"
-},
+    "test": "node test.js",
+    "start": "node app.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tanishaaraoo07/nodejs-demo-app.git"
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/tanishaaraoo07/nodejs-demo-app#readme",
   "dependencies": {
+    "dotenv": "^16.4.7",
     "express": "^5.1.0"
   }
 }
