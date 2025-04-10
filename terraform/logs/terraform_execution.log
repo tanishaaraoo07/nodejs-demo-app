@@ -1,0 +1,17 @@
+# Terraform Execution Logs
+
+This file would contain logs from Terraform commands execution.
+
+Example log format:
+[2025-04-10 10:15:30] terraform init
+Initializing the backend...
+Initializing provider plugins...
+...
+
+[2025-04-10 10:16:45] terraform apply
+Apply complete! Resources: 2 added, 0 changed, 0 destroyed.
+
+Outputs:
+container_id = "..."
+container_name = "nodejs-terraform-container"
+image_id = "..."
