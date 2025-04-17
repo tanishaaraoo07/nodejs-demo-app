@@ -1,0 +1,469 @@
+<!--NAME-Damala Tanisha, -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edu4All</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { 
+            margin: 0; 
+            font-family: 'Arial', sans-serif; 
+            background-color: #f8f9fa; 
+            color: #333; 
+            line-height: 1.6; 
+            overflow-x: hidden;
+         } 
+        .navbar img.logo { 
+            width: 60px; 
+            height: 50%; 
+            padding: 10px; 
+            margin: 0;
+         } 
+            .hero {
+                 background-color: #f3f6fa; 
+                 color: white;
+                 padding: 0;
+                 padding-left: 0; 
+                } 
+        .hero img { 
+            width: 100%; 
+            height: 100%; 
+            max-height: 400px; 
+            object-fit: cover; 
+        } 
+        .stats-section { 
+            padding: 40px 0; 
+        } .stats-section .stat { 
+            text-align: center; 
+        } 
+         .featured-program { 
+            padding: 40px 0; 
+        } .program-item { 
+            text-align: center; 
+            margin-bottom: 30px; 
+        } 
+         .program-item img { 
+            width: 72%; 
+            height: auto; 
+            max-height: 150px; 
+            object-fit: cover; 
+            border-radius: 5px; 
+            display: block; 
+            margin: 0 auto; 
+            border-radius: 0%; 
+        } 
+         .program-item h5 { 
+            margin-top: 10px; 
+            font-size: 1.1rem; 
+            color: #333; 
+            background-color: #f3f6fa; 
+            padding: 5px 10px; 
+            display: inline-block; 
+            text-align: center; 
+        } 
+         .stat img.icon { 
+            width: 100px; 
+            height: 100px; 
+            border-radius: 50%; 
+            object-fit: cover; 
+            padding: 10px; 
+            border: 2px solid #007BFF; 
+            background-color: white; 
+            box-sizing: border-box; 
+        } 
+         .stat h3 { 
+            font-size: 2rem; 
+            margin-bottom: 5px; 
+        } 
+         .stat p { 
+            margin: 0; 
+            font-size: 1rem; 
+            color: #555; 
+        } 
+         .background { 
+            position: relative; 
+            background-image: url('images/background-1.jpg'); 
+            background-size: cover; 
+            background-position: center; 
+            padding: 40px 0; 
+            color: #f3f6fa; 
+        } 
+         .background::before { 
+            content: ''; 
+            position: absolute; 
+            top: 0;
+            left: 0; 
+            width: 100%; 
+            height: 100%; 
+            background-color: rgba(0, 0, 0, 0.5); 
+            z-index: 1; 
+        }
+          .background .featured-program { 
+            position: relative; 
+            z-index: 2; 
+        } 
+          .trusted-section { 
+            margin: 0; 
+            padding: 20px 0 0 0; 
+            width: 100%; 
+        } 
+          .trusted-section .row .col-md-4 {
+             padding: 0; 
+             width: 375px; 
+            } 
+          .team-section .row { 
+            padding-left: 100px;
+            padding-right: 100px; 
+        }
+          </style> 
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <img src="images/logo.png" alt="Student Image" class="logo">
+            <a class="navbar-brand" href="#">Edu4All</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-primary text-white" href="#">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero">
+       
+            <div class="row g-0">
+                <div class="col-md-6 text-white d-flex flex-column justify-content-center p-5" style="background-color: #001F3F;">
+                    <h1>Innovation and Discovery</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae cumque at nisi voluptatem nostrum architecto natus!</p>
+                    <div>
+                        <a href="#" class="btn btn-primary me-2">Sign Up for Execution</a>
+                        <a href="#" class="btn btn-outline-light">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/banner-1.jpg" alt="Student Image" class="img-fluid w-100" style="width: 100%; padding-left:0%;">
+                </div>
+            </div>
+    </div>
+
+    <div class="stats-section text-center">
+        <div class="container-fluid">
+            <h2>Statistics</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic rerum esse!</p>
+            <div class="row">
+                <div class="col-md-3 stat">
+                    <img src="images\proff.jpeg" alt="Professor Image" class="icon">
+                    <h3 style="color:#007BFF">156</h3>
+                    <p>Professor</p>
+                </div>
+                <div class="col-md-3 stat">
+                    <img src="images\campus.jpeg" alt="Campus Image" class="icon">
+                    <h3 style="color:#007BFF">12</h3>
+                    <p>Campus</p>
+                </div>
+                <div class="col-md-3 stat">
+                    <img src="images/student.jpeg" alt="Students Image" class="icon">
+                    <h3 style="color:#007BFF">3257</h3>
+                    <p>Students</p>
+                </div>
+                <div class="col-md-3 stat">
+                    <img src="images\course.jpeg" alt="Courses Image" class="icon">
+                    <h3 style="color:#007BFF">346</h3>
+                    <p>Courses</p>
+                </div>                
+            </div>
+        </div>
+    </div>
+    <div class="background" >
+        <div class="featured-program ">
+            <div class="container-fluid">
+                <h2 class="text-center" style="padding-top: 0px;" >Featured Program</h2>
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic rerum esse!</p>
+                <div class="row" >
+                    <div class="col-md-3">
+                        <div class="program-item" >
+                            <img src="images/card-anthropology.jpg" alt="Anthropology">
+                            <h5 style="background-color: #f3f6fa; margin-top: 0%; width: 255px;">Anthropology</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="program-item">
+                            <img src="images/card-copywriting.jpg" alt="Copywriting">
+                            <h5 style="background-color: #f3f6fa; margin-top: 0%; width: 255px;">Copywriting</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="program-item">
+                            <img src="images/card-design.jpg" alt="Design">
+                            <h5 style="background-color: #f3f6fa; margin-top: 0%;width: 255px;">Design</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="program-item">
+                            <img src="images/card-economics.jpg" alt="Economics">
+                            <h5 style="background-color: #f3f6fa; margin-top: 0%;width: 255px;">Economics</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="program-item">
+                            <img src="images/card-mathematics.jpg" alt="Mathematics">
+                            <h5 style="background-color: #f3f6fa; margin-top: 0%;width: 255px;">Mathematics</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="program-item">
+                            <img src="images/card-physics.jpg" alt="Physics">
+                            <h5 style="background-color: #f3f6fa; margin-top: 0%;width: 255px;">Physics</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="program-item">
+                            <img src="images/card-programming.jpg" alt="Programming">
+                            <h5 style="background-color: #f3f6fa; margin-top: 0%;width: 255px;">Programming</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="program-item">
+                            <img src="images/card-psychology.jpg" alt="Psychology">
+                            <h5 style="background-color: #f3f6fa; margin-top: 0%;width: 255px;">Psychology</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about-university text-align-left d-flex align-items-center ">
+        <div class="container-fluid d-flex flex-column justify-content-center" style="padding-left:54px; padding-top: 3%;padding-bottom: 3% ; width:199%;">
+            <h2>A Few Words About the University</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic rerum esse! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae mauris ut magna consectetur eleifend.</p>
+            <a href="#" class="btn btn-outline-primary" style="width: 30%;">Learn More</a>
+        </div>
+        <div class="col-lg-6 d-flex flex-column justify-content-center">
+            <img src="images/logo.png" alt="University Image" class="img-fluid" style="
+                width: 40%;
+                padding-left: 4%;
+                margin-left: 305px;">
+        </div>
+    </div>
+
+    <div class="campus-uni" style="padding-top:10px; max-height:50%;">
+        <video controls autoplay muted loop width="100%">
+            <source src="media/Welcome-to-Cambridge.mp4 " type="video/mp4">
+        </video>
+        
+        <div class="trusted-section text-center " style="padding-top: 20px;width: 99%;">
+            <div class="container-fluid">
+                <h2  style=" display: inline-block;border-bottom:2px solid rgb(0, 106, 255);padding-right: 30px; ">Trusted by Over 5000+ Students</h2>
+                <p style="padding-bottom: 2%;padding-top: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic rerum esse!</p>
+                <div class="row g-0">
+                    <div class="col-md-3">
+                        <img src="images\galary-1.jpg" alt="Students Image" class="img-fluid h-100 w-100 "  >
+                    </div>
+                    <div class="col-md-3">
+                        <img src="images\galary-2.jpg" alt="Students Image" class="img-fluid h-100 w-100" >
+                    </div>
+                    <div class="col-md-3">
+                        <img src="images\galary-3.jpg" alt="Students Image" class="img-fluid h-100 w-100"  >
+                    </div>
+                    <div class="col-md-3">
+                        <img src="images\galary-4.jpg" alt="Students Image" class="img-fluid h-100 w-100" >
+                    </div>
+                </div>
+                <div class="row g-0" >
+                    <div class="col-md-3">
+                        <img src="images\galary-5.jpg" alt="Students Image" class="img-fluid h-100 w-100" >
+                    </div>
+                    <div class="col-md-3">
+                        <img src="images\galary-6.jpg" alt="Students Image" class="img-fluid h-100 w-100" >
+                    </div>
+                    <div class="col-md-3">
+                        <img src="images\galary-7.jpg" alt="Students Image" class="img-fluid h-100 w-100" >
+                    </div>
+                    <div class="col-md-3">
+                        <img src="images\galary-8.jpg" alt="Students Image" class="img-fluid h-100 w-100">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <div class="team-section text-center p-3">
+        <div class="container-fluid">
+            <h2 style=" display: inline-block;border-bottom: 2px solid rgb(0, 106, 255); ">Our Team</h2>
+            <div class="row p-3">
+                <div class="col-md-3">
+                    <div class="team-member">
+                        <img class="rounded"  src="images\instructor-1.jpg" alt="Jhon Smith" width="50%" height="250px" >
+                        <h5 style="color: #007BFF;font-weight: bold;text-align: center;">Jhon Smith</h5>
+                        <h6 style="text-align: center;">Geophysics</h6>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="team-member">
+                        <img class="rounded" src="images\instructor-2.jpg" alt="Sara Will" width="50%" height="250px">
+                        <h5 style="color: #007BFF;font-weight: bold; text-align: center;" >Sara Will</h5>
+                        <h6 style="text-align: center;">Graphics design</h6>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="team-member">
+                        <img class="rounded"  src="images\instructor-3.jpg" alt="Tom Brook"  width="50%" height="250px">
+                        <h5 style="color: #007BFF;font-weight: bold; text-align: center;">Tom Brook</h5>
+                        <h6 style="text-align: center;">Economics</h6>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="team-member">
+                        <img class="rounded"  src="images\instructor-4.avif" alt="Ema Elizabeth" width="50%" height="250px">
+                        <h5 style="color: #007BFF;font-weight: bold; text-align: center;">Ema Elizabeth</h5>
+                        <h6 style="text-align: center;">Psychology</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="query-section">
+            <div class="row g-0">
+                <div class="col-md-6">
+                    <img src="images\help.jpg" alt="Teamwork Image" style="width: 100%;height: 500px;">
+                </div>
+                <div class="col-md-6 p-5 bg-dark ;" style="height: 500px;">
+                    <h2 style="color: #ffffff;">Send Us Your Query</h2>
+                    <form action="#" method="post">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Name" name="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Mobile" name="mobile" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Email" name="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <select class="form-control" name="department" required>
+                                <option value="Physics">Physics</option>
+                                <!-- Add more departments as needed -->
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="4" placeholder="Message" name="message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center pb-5">
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col-md-4 pt-5 " style="font-weight: bold; text-align: left;">
+                    <p style="font-weight: bolder; display: inline-block;border-bottom: 3px solid rgb(0, 106, 255); text-align:left;">Contact</p>
+                    <div class="mobile">
+                        <div class="row g-0">
+                            <div class="col-1 p-0 " style="text-align: right;">
+                                <img src="images\phone.jpg" alt="mobile number" style="height: 20px;">
+                            </div>
+                            <div class="col-11 " style="text-align:left;">
+                                <p style=" margin-left: 17px;">+91 98765 54221</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gmail-message">
+                        <div class="row g-0">
+                            <div class="col-1 p-0" style="text-align: right;">
+                                <img src="images/email.png" alt="gmail" style="height: 20px;">
+                            </div>
+                            <div class="col-11" style="text-align: left;">
+                                <p style=" margin-left: 17px;">contact@edu4all.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="location">
+                        <div class="row g-0">
+                            <div class="col-1 p-0" style="text-align: right;">
+                                <img src="images/loc.png" alt="location" style="height: 20px;" >
+                            </div>
+                            <div class="col-11" style="text-align: left;">
+                                <p style=" margin-left: 17px;">Delhi, India</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-icons mt-3" >
+                        <a href="#"><img src="images\facebook.png" alt="Facebook" style=" height: 20px; margin-right: 10px;padding-left: 50px; padding-right: 15px;"></a>
+                        <a href="#"><img src="images\instagram.jpeg " alt="Twitter" style="height: 20px; margin-right: 10px; padding-right: 15px; "></a>
+                        <a href="#"><img src="images\twitter.png" alt="LinkedIn" style="height: 20px; margin-right: 10px ;padding-right:15px; "></a>
+                        <a href="#"><img src="images\youtube.png" alt="YouTube" style="height: 20px;"></a>
+                    </div>
+                </div>
+    
+                <div class="col-md-4 pt-5 " style="text-align: left;">
+                    <p style="font-weight: bolder;display: inline-block;  border-bottom: 3px solid rgb(0, 106, 255); ">Newsletter</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas alias, tenetur libero adipisci quisquam totam.</p>
+                    <div class="submit">
+                        <div class="row g-0">
+                            <div class="col-lg-6">
+                                <form action="#" method="post">
+                                    <input type="email" placeholder="Your Email" class="form-control" required>
+                                </form>
+
+                            </div>
+                            <div class="col-lg-6">
+                            <form action="#" method="post">
+                                <div class="image-container" style="border-radius: 5%;width: 40px; height: 38px;   background-color: #003399; /* Dark blue background */ display: flex;  justify-content: center;  align-items: center;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="width: 24px; height: 24px; fill: white;">
+                                        <path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6V9c0-3.07-1.63-5.64-4.5-6.32V2h-3v.68C7.63 3.36 6 5.92 6 9v7l-1.34 1.34C4.24 17.9 4.76 19 6 19h12c1.24 0 1.76-1.1 1.34-1.66L18 16z"/>
+                                    </svg>
+                                </div>
+
+                            </form>
+
+                        </div>
+                </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-4 pt-5" style="text-align: left;">
+                    
+                    <div style="padding-left: 20px;padding-right: 100px;">   
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3740.7806760065064!2d85.80633600000002!3d20.350677299999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1908e064769e73%3A0x9288172f3a98c7a4!2sSilicon%20University!5e0!3m2!1sen!2sin!4v1737863084309!5m2!1sen!2sin"width="475" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" padding-left="0px"></iframe>
+                          <!--width="100%%" 
+                          height="250" 
+                          style="border: 0;" 
+                          allowfullscreen="" 
+                          loading="lazy">
+                        </iframe>-->
+                      </div>
+                      
+                </div>
+            </div>
+        </div>
+    </footer>
+        <footer class="text-align">
+        <p style="background-color: #001F3F; color: #f3f6fa; height: 50px; line-height: 50px; text-align: center; margin: 0;">Copyright &copy; 2023 Edu4All</p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
